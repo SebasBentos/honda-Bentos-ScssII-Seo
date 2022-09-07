@@ -1,0 +1,24 @@
+.QuinesSomos{
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    gap: 1%;
+
+    .titulo__info {
+        padding: 2%;
+        background-color: $mainColor ;
+        color: red;
+        font-size: 280%;   
+        text-align: center;
+    }
+
+    .datos{
+        padding-top: 2%;
+        font-size: 180%;
+    }
+
+    .img__info{
+        height: 71vh;
+    }
+    
+}

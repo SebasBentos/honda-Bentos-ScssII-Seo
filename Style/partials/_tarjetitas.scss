@@ -1,0 +1,39 @@
+.tarjetitas{
+    display: flex;
+    padding: 2%;
+    gap: 2%;
+    
+    .tarjeta{
+        background-color: $mainColor;
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 2%;
+
+        .informacion{
+            padding-inline: 2%;
+            font-size: x-large;
+            color: aliceblue;
+
+            .tajetita__titulo{
+                text-align: center;
+                color: red;
+                text-decoration: underline;
+                font-size: 150%;
+                margin: 1%;
+
+                .tarjetita__texto{
+                    color:white;
+                    padding: 3%;
+                }
+                
+                
+            }
+        }
+
+        .tarjetita__imagen{
+            max-width: 100%;
+        }
+    }
+}

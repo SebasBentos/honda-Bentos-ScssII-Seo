@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(4, 0, 241);
+  display: flex;
+  justify-content: space-around;
+}
+header .logo {
+  width: 27vh;
+  height: 9vh;
+  padding-top: 1%;
+}
+header .navbar {
+  display: flex;
+  align-items: center;
+}
+header .navbar .menu {
+  display: flex;
+  list-style-type: none;
+  gap: 15%;
+  align-items: center;
+  height: 15%;
+  padding: 5%;
+  font-size: x-large;
+}
+header .navbar .menu .manu__item a {
+  color: white;
+  text-decoration: none;
+}
+header .navbar .menu .manu__item:active a {
+  text-decoration: underline;
+}
+
+.ImagenPrincipal {
+  background-image: url("../imagenes/principal.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 78vh;
+  width: 100%;
+  display: flex;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.tarjetitas {
+  display: flex;
+  padding: 2%;
+  gap: 2%;
+}
+.tarjetitas .tarjeta {
+  background-color: rgb(4, 0, 241);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+}
+.tarjetitas .tarjeta .informacion {
+  padding-inline: 2%;
+  font-size: x-large;
+  color: aliceblue;
+}
+.tarjetitas .tarjeta .informacion .tajetita__titulo {
+  text-align: center;
+  color: red;
+  text-decoration: underline;
+  font-size: 150%;
+  margin: 1%;
+}
+.tarjetitas .tarjeta .informacion .tajetita__titulo .tarjetita__texto {
+  color: white;
+  padding: 3%;
+}
+.tarjetitas .tarjeta .tarjetita__imagen {
+  max-width: 100%;
+}
+
+.QuinesSomos {
+  padding: 3%;
+  display: flex;
+  justify-content: space-around;
+  gap: 1%;
+}
+.QuinesSomos .titulo__info {
+  padding: 2%;
+  background-color: rgb(4, 0, 241);
+  color: red;
+  font-size: 280%;
+  text-align: center;
+}
+.QuinesSomos .datos {
+  padding-top: 2%;
+  font-size: 180%;
+}
+.QuinesSomos .img__info {
+  height: 71vh;
+}
+
+.fondo {
+  background-image: url("../imagenes/fondoo.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.registro {
+  width: 400px;
+  background-color: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+.registro h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.registro h4 p {
+  height: 40px;
+  align-items: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.controls {
+  width: 100%;
+  background-color: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.pie {
+  background-color: rgb(4, 0, 241);
+  color: white;
+  padding-block: 35px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  font-size: x-large;
+  /*text-decoration: underline;*/
+}
+.pie .iconos{
+  display: flex;
+  align-items: center;
+  gap: 50%;
+}
+
+.pie .iconos .fab {
+  padding: 1rem;
+}
+
+.fa-facebook, .fa-whatsapp {
+  background-color: rgb(7, 71, 131);
+}
+
+.fa-instagram {
+  background-color: #8b0960;
+}
+
+.fa-whatsapp {
+  background-color: #3fda10;
+}
+
+.fa-facebook, .fa-instagram, .fa-whatsapp{
+  border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-whatsapp:hover{
+  background-color: darkred;
+
+}
+
+.cajitas {
+  margin-bottom: 3rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cajitas .cajita {
+  background: #ee1919;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cajitas .cajita1 {
+  width: 200px;
+  height: 150px;
+}
+
+.cajitas .cajita2 {
+  width: 200px;
+  height: 150px;
+}
+
+.cajitas .cajita3 {
+  width: 200px;
+  height: 150px;
+}
+
+.cajitas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(8, 8, 243);
+  padding-block: 1rem;
+}
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,47 @@
+.cajitas {
+    margin-bottom: 3rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .cajita {
+        background: $mainColor;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@mixin tamanos($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+.cajitas .cajita1 {
+    @include tamanos(200px, 150px);
+}
+
+.cajitas .cajita2 {
+    @include tamanos(200px, 150px);
+}
+
+.cajitas .cajita3 {
+    @include tamanos(200px, 150px);
+}
+
+
+@mixin containercajitas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $mainColor;
+    padding-block: 1rem;
+}
+
+.cajitas {
+    @include containercajitas();
+}

@@ -1,0 +1,42 @@
+header{
+    background-color: $mainColor;
+    display: flex;
+    justify-content: space-around;
+
+    .logo{
+        width: 27vh;
+        height: 9vh;
+        padding-top: 1%;
+    }
+
+    .navbar{
+        display: flex;
+        align-items: center;
+
+        .menu{
+            display: flex;
+            list-style-type: none;
+            gap: 15%;
+            align-items: center;
+            height: 15%;
+            padding: 5%;
+            font-size: x-large;
+             ;
+
+            .manu__item{
+
+                a{
+                    color: white;
+                    text-decoration: none }
+                   
+                
+                 &:active a {
+                    text-decoration: underline;
+                }
+             
+            }
+        }
+    }
+    
+}
+
